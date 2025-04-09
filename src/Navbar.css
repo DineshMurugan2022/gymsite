@@ -1,0 +1,37 @@
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Hide dropdown when not hovering */
+  .nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+  
+  /* Style nested submenu */
+  .dropdown-submenu {
+    position: relative;
+  }
+  
+  /* Style dropdown items */
+  .dropdown-submenu .dropdown-item {
+    position: relative;
+  }
+  
+  /* Position nested dropdown correctly */
+  .dropdown-submenu .dropdown-menu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-top: 0;
+    display: none;
+  }
+  
+  /* Show nested dropdown on hover */
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+  }
+  

@@ -1,0 +1,33 @@
+.userdashboard-container {
+    background-image: url('https://cdn.pixabay.com/photo/2022/02/21/12/01/weight-7026559_1280.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  /* App.css or a dedicated dashboard.css */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.main-content {
+  margin-left: 250px; /* Match your Sidebar width */
+  width: 100%;
+}
+
+.dashboard-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/* Optional: Sticky header */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
