@@ -2,14 +2,11 @@ import React from "react";
 import Sidebar from "./Sidebar";  
 import Header from "./Header";
 import "./App.css"; // Import your CSS file here
-
-import StatsCard from './components/StatsCard';
-
-
-import RecentMembers from "./components/RecentMembers";
-import UpcomingClasses from "./components/UpcomingClasses";
-import EarningsChart from "./components/EarningsChart";
-import MembersProgressChart from "./components/MembersProgressChart";
+import RecentMembers from "./Components/RecentMembers";
+import Card from "./Components/Card";
+import UpcomingClasses from "./Components/UpcomingClasses";
+import EarningsChart from "./Components/EarningsChart";
+import MembersProgressChart from "./Components/MembersProgressChart";
 
 import {
   FaUsers,
@@ -36,7 +33,7 @@ const Admindashboard = () => {
 
           <div className="row g-4 mb-4 justify-content-center">
             <div className="col-md-6 col-lg-3">
-              <StatsCard
+              <Card
                 title="Total Members"
                 value="2,840"
                 icon={<FaUsers />}
@@ -44,7 +41,7 @@ const Admindashboard = () => {
               />
             </div>
             <div className="col-md-6 col-lg-3">
-              <StatsCard
+              <Card
                 title="Active Subscriptions"
                 value="1,945"
                 icon={<FaCreditCard />}
@@ -52,7 +49,7 @@ const Admindashboard = () => {
               />
             </div>
             <div className="col-md-6 col-lg-3">
-              <StatsCard
+              <Card
                 title="Monthly Revenue"
                 value="$48,250"
                 icon={<FaChartLine />}
@@ -60,7 +57,7 @@ const Admindashboard = () => {
               />
             </div>
             <div className="col-md-6 col-lg-3">
-              <StatsCard
+              <Card
                 title="Classes Today"
                 value="24"
                 icon={<FaCalendarAlt />}

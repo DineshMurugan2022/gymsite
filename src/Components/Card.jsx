@@ -1,6 +1,6 @@
 import React from "react";
 
-const StatsCard = ({ title, value, icon, change, className }) => {
+const Card = ({ title, value, icon, change, className }) => {
   const changeColor = change
     ? change.positive
       ? "text-success"
@@ -38,4 +38,4 @@ const StatsCard = ({ title, value, icon, change, className }) => {
   );
 };
 
-export default StatsCard;
+export default Card;
