@@ -3,7 +3,9 @@ import Sidebar from "./Sidebar";
 import Header from "./Header";
 import "./App.css"; // Import your CSS file here
 
-import StatsCard from "./components/StatsCard";
+import StatsCard from './components/StatsCard';
+
+
 import RecentMembers from "./components/RecentMembers";
 import UpcomingClasses from "./components/UpcomingClasses";
 import EarningsChart from "./components/EarningsChart";
